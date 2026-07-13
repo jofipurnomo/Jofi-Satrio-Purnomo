@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jofi Satrio Purnomo - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header .title {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        header .contact {
+            font-size: 0.95em;
+            opacity: 0.85;
+        }
+
+        header .contact a {
+            color: #e0e7ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        header .contact a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .experience-item,
+        .education-item,
+        .skill-category {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .experience-item:last-child,
+        .education-item:last-child,
+        .skill-category:last-child {
+            border-bottom: none;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        .company {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .period {
+            color: #999;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .description {
+            margin-top: 8px;
+            color: #555;
+        }
+
+        .description li {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-tag {
+            background: #f0f4ff;
+            color: #667eea;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px 5px 5px 0;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jofi Satrio Purnomo</h1>
+            <div class="title">Your Professional Title Here</div>
+            <div class="contact">
+                <a href="mailto:your.email@example.com">📧 Email</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/jofipurnomo" target="_blank">🐙 GitHub</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Professional Summary -->
+            <section>
+                <h2>About Me</h2>
+                <p>Selamat datang! Saya adalah seorang profesional dengan pengalaman dalam [bidang Anda]. Saya bersemangat tentang [minat Anda] dan terus berkembang dalam industri teknologi.</p>
+            </section>
+
+            <!-- Experience -->
+            <section>
+                <h2>Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="job-title">Job Title 1</div>
+                    <div class="company">Company Name</div>
+                    <div class="period">January 2024 - Present</div>
+                    <div class="description">
+                        <ul>
+                            <li>Achievement or responsibility 1</li>
+                            <li>Achievement or responsibility 2</li>
+                            <li>Achievement or responsibility 3</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Job Title 2</div>
+                    <div class="company">Previous Company</div>
+                    <div class="period">January 2023 - December 2023</div>
+                    <div class="description">
+                        <ul>
+                            <li>Achievement or responsibility 1</li>
+                            <li>Achievement or responsibility 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section>
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <div class="job-title">Degree Name</div>
+                    <div class="company">University Name</div>
+                    <div class="period">Graduation Year: 2023</div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section>
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div>
+                        <h4>Technical Skills</h4>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                    <div>
+                        <h4>Soft Skills</h4>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Leadership</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Jofi Satrio Purnomo. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
