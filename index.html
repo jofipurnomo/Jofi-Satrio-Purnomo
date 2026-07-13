@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jofi Satrio Purnomo - Materials Science Professional</title>
+    <title>Jofi Satrio Purnomo - Materials Science</title>
     <style>
         * {
             margin: 0;
@@ -25,7 +25,7 @@
             margin: 0 auto;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             overflow: hidden;
         }
 
@@ -42,23 +42,28 @@
         }
 
         header .title {
-            font-size: 1.2em;
+            font-size: 1.3em;
             opacity: 0.9;
             margin-bottom: 15px;
+            font-weight: 300;
         }
 
         header .contact {
-            font-size: 0.95em;
-            opacity: 0.85;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
         }
 
         header .contact a {
-            color: #e0e7ff;
+            color: white;
             text-decoration: none;
-            margin: 0 10px;
+            transition: opacity 0.3s;
         }
 
         header .contact a:hover {
+            opacity: 0.8;
             text-decoration: underline;
         }
 
@@ -73,14 +78,14 @@
         }
 
         section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         h2 {
             color: #667eea;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
             margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
             font-size: 1.8em;
         }
 
@@ -93,7 +98,7 @@
         .experience-item,
         .education-item,
         .skill-category {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             padding-bottom: 20px;
             border-bottom: 1px solid #eee;
         }
@@ -105,44 +110,52 @@
         }
 
         .job-title {
-            font-weight: bold;
+            font-weight: 600;
             color: #333;
             font-size: 1.1em;
+            margin-bottom: 5px;
         }
 
         .company {
             color: #667eea;
-            font-weight: 600;
+            font-weight: 500;
+            margin-bottom: 5px;
         }
 
         .period {
             color: #999;
             font-size: 0.9em;
+            margin-bottom: 10px;
             font-style: italic;
         }
 
         .description {
-            margin-top: 8px;
             color: #555;
+            line-height: 1.8;
+        }
+
+        .description ul {
+            margin-left: 20px;
+            margin-top: 10px;
         }
 
         .description li {
-            margin-left: 20px;
-            margin-top: 5px;
+            margin-bottom: 8px;
         }
 
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
         }
 
         .skill-tag {
-            background: #f0f4ff;
-            color: #667eea;
-            padding: 10px 15px;
-            border-radius: 5px;
             display: inline-block;
+            background: #f0f0f0;
+            color: #333;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
             margin: 5px 5px 5px 0;
         }
 
@@ -201,16 +214,25 @@
             background: #f8f9fa;
             padding: 20px;
             text-align: center;
-            color: #999;
+            color: #666;
             font-size: 0.9em;
         }
 
-        @media (max-width: 600px) {
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
             header h1 {
-                font-size: 1.8em;
+                font-size: 2em;
             }
-            main {
-                padding: 20px;
+            .skills-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -219,7 +241,7 @@
     <div class="container">
         <header>
             <h1>Jofi Satrio Purnomo</h1>
-            <div class="title">Materials Science Professional & Photocatalyst Researcher</div>
+            <div class="title">Materials Science & Photocatalyst Researcher</div>
             <div class="contact">
                 <a href="tel:+62-822-8633-2754">📱 +62-822-8633-2754</a>
                 <a href="mailto:jofi.purnomo@gmail.com">📧 Email</a>
@@ -394,7 +416,7 @@
 
         <footer>
             <p>&copy; 2024-2026 Jofi Satrio Purnomo. All rights reserved.</p>
-            <p><a href="https://scholar.google.com/citations?user=0AWpDGYAAAAJ&hl=id&oi=ao" target="_blank" style="color: #667eea; text-decoration: none;">View Full Academic Profile</a></p>
+            <p><a href="https://scholar.google.com/citations?user=0AWpDGYAAAAJ&hl=id&oi=ao" target="_blank">View Full Academic Profile</a></p>
         </footer>
     </div>
 </body>
