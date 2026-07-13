@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jofi Satrio Purnomo - Portfolio</title>
+    <title>Jofi Satrio Purnomo - Materials Science Professional</title>
     <style>
         * {
             margin: 0;
@@ -62,6 +62,12 @@
             text-decoration: underline;
         }
 
+        header .location {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
         main {
             padding: 40px;
         }
@@ -76,6 +82,12 @@
             padding-bottom: 10px;
             margin-bottom: 20px;
             font-size: 1.8em;
+        }
+
+        .about-text {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
         }
 
         .experience-item,
@@ -134,6 +146,57 @@
             margin: 5px 5px 5px 0;
         }
 
+        .publication-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .publication-item:last-child {
+            border-bottom: none;
+        }
+
+        .pub-year {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .pub-title {
+            font-weight: 600;
+            color: #333;
+            margin: 5px 0;
+        }
+
+        .pub-venue {
+            color: #666;
+            font-style: italic;
+            font-size: 0.95em;
+        }
+
+        .pub-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .pub-link:hover {
+            text-decoration: underline;
+        }
+
+        .award-item {
+            margin-bottom: 10px;
+            color: #555;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .award-item:before {
+            content: "★";
+            color: #667eea;
+            position: absolute;
+            left: 0;
+        }
+
         footer {
             background: #f8f9fa;
             padding: 20px;
@@ -156,49 +219,26 @@
     <div class="container">
         <header>
             <h1>Jofi Satrio Purnomo</h1>
-            <div class="title">Your Professional Title Here</div>
+            <div class="title">Materials Science Professional & Photocatalyst Researcher</div>
             <div class="contact">
-                <a href="mailto:your.email@example.com">📧 Email</a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
-                <a href="https://github.com/jofipurnomo" target="_blank">🐙 GitHub</a>
+                <a href="tel:+62-822-8633-2754">📱 +62-822-8633-2754</a>
+                <a href="mailto:jofi.purnomo@gmail.com">📧 Email</a>
+                <a href="https://www.linkedin.com/in/jofi-satrio-purnomo-95a374131/" target="_blank">💼 LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=0AWpDGYAAAAJ&hl=id&oi=ao" target="_blank">📚 Google Scholar</a>
             </div>
+            <div class="location">📍 Toyama-shi, Toyama Prefecture, Japan</div>
         </header>
 
         <main>
             <!-- Professional Summary -->
             <section>
                 <h2>About Me</h2>
-                <p>Selamat datang! Saya adalah seorang profesional dengan pengalaman dalam [bidang Anda]. Saya bersemangat tentang [minat Anda] dan terus berkembang dalam industri teknologi.</p>
-            </section>
-
-            <!-- Experience -->
-            <section>
-                <h2>Experience</h2>
-                
-                <div class="experience-item">
-                    <div class="job-title">Job Title 1</div>
-                    <div class="company">Company Name</div>
-                    <div class="period">January 2024 - Present</div>
-                    <div class="description">
-                        <ul>
-                            <li>Achievement or responsibility 1</li>
-                            <li>Achievement or responsibility 2</li>
-                            <li>Achievement or responsibility 3</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-title">Job Title 2</div>
-                    <div class="company">Previous Company</div>
-                    <div class="period">January 2023 - December 2023</div>
-                    <div class="description">
-                        <ul>
-                            <li>Achievement or responsibility 1</li>
-                            <li>Achievement or responsibility 2</li>
-                        </ul>
-                    </div>
-                </div>
+                <p class="about-text">
+                    I have a background in chemistry and materials science, with research experience in the design and synthesis of functional materials and their physicochemical characterization. My previous work focused on developing adsorbent materials for textile wastewater treatment, which strengthened my interest in environmentally relevant material applications.
+                </p>
+                <p class="about-text">
+                    Currently, I am pursuing a master's degree in Japan in Materials Science and Engineering at University of Toyama, where my research focuses on photocatalytic systems for solar-to-chemical energy conversion. I am particularly interested in the rational design of molecular and hybrid photocatalysts for light-driven water splitting. My goal is to contribute to the development of efficient, sustainable energy materials through a deeper understanding of structure–function relationships in photocatalytic systems.
+                </p>
             </section>
 
             <!-- Education -->
@@ -206,9 +246,52 @@
                 <h2>Education</h2>
                 
                 <div class="education-item">
-                    <div class="job-title">Degree Name</div>
-                    <div class="company">University Name</div>
-                    <div class="period">Graduation Year: 2023</div>
+                    <div class="job-title">Master Program in Material Science Engineering</div>
+                    <div class="company">University of Toyama, Graduate School of Science and Engineering</div>
+                    <div class="period">Apr 2025 – Mar 2027 (Expected)</div>
+                    <div class="description">
+                        Developing light-driven overall water splitting photocatalyst based on Transition Metal Dichaclogenides-Metal Complex.
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="job-title">Master Program in Chemistry (M.Sc)</div>
+                    <div class="company">Andalas University, Department of Chemistry, Faculty of Science</div>
+                    <div class="period">2021 - 2022 | GPA: 3.99 / 4.00</div>
+                    <div class="description">
+                        One-year fast-track Master's program focused on environmental analytical chemistry. Successfully developed a more sensitive method for pollutant detection by adsorption method and published findings in a reputable Q1 international journal.
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="job-title">Bachelor Program in Chemistry (B.Sc)</div>
+                    <div class="company">Andalas University, Department of Chemistry, Faculty of Science</div>
+                    <div class="period">2017 - 2021 | GPA: 3.78 / 4.00</div>
+                    <div class="description">
+                        Conducted research in environmental analytical chemistry and developed a sensitive method for detecting pollutants in environmental samples. Research published in a reputable international journal (Q2). Actively involved in student organizations and competitions such as ON-MIPA and scientific writing contests.
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section>
+                <h2>Work Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="job-title">Scientist, Analytical</div>
+                    <div class="company">PT Dexa Medica, Bekasi, West Java, Indonesia</div>
+                    <div class="period">February 2023 – March 2025 | Permanent Employee</div>
+                    <div class="description">
+                        Responsible for development (AMD), verification (AMVer), and validation (AMVal) of chemical and microbiological analytical methods and participated in method transfer processes to manufacturing sites. Key achievements include:
+                        <ul>
+                            <li>Successfully developed analytical methods for 32 raw material and finished product samples in 2023 and 2024</li>
+                            <li>Participated in the development and implementation of new microbiological testing methods for natural medicines in accordance with local regulations</li>
+                            <li>Conducted stability testing of raw materials and finished products at laboratory and pilot scales with an on-time analysis rate exceeding 98% in 2023 and 2024</li>
+                            <li>Managed and reviewed laboratory instrumentation usage and small tools inventory</li>
+                            <li>Contributed to an improvement program to reduce consumption of liquid media used in microbiological analysis</li>
+                            <li>Involvement in the revision of work instruction (WI) documents</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -217,25 +300,101 @@
                 <h2>Skills</h2>
                 <div class="skills-grid">
                     <div>
-                        <h4>Technical Skills</h4>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Git</span>
+                        <h4 style="color: #667eea; margin-bottom: 10px;">Technical Skills</h4>
+                        <span class="skill-tag">Materials Characterization</span>
+                        <span class="skill-tag">Photocatalysis</span>
+                        <span class="skill-tag">Analytical Methods</span>
+                        <span class="skill-tag">HPLC</span>
+                        <span class="skill-tag">UV-Vis Spectroscopy</span>
+                        <span class="skill-tag">Chromatography</span>
+                        <span class="skill-tag">Method Development</span>
+                        <span class="skill-tag">Environmental Analysis</span>
                     </div>
                     <div>
-                        <h4>Soft Skills</h4>
+                        <h4 style="color: #667eea; margin-bottom: 10px;">Professional Skills</h4>
+                        <span class="skill-tag">Research & Development</span>
+                        <span class="skill-tag">Laboratory Management</span>
+                        <span class="skill-tag">Technical Writing</span>
+                        <span class="skill-tag">Data Analysis</span>
                         <span class="skill-tag">Communication</span>
                         <span class="skill-tag">Problem Solving</span>
                         <span class="skill-tag">Teamwork</span>
-                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Project Management</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications & Conferences -->
+            <section>
+                <h2>Publications & Conferences</h2>
+                
+                <div class="publication-item">
+                    <div class="pub-year">2026 - Conference</div>
+                    <div class="pub-title">Persulfate-Driven Photocatalytic Oxygen Evolution by an Anthracene-Linked Ru(II) Terpyridine Complex</div>
+                    <div class="pub-venue">The Japanese Photochemistry Association Annual Meeting on Photochemistry (Sep 2026)</div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2025 - Conference</div>
+                    <div class="pub-title">Oxygen Evolution from Water Catalyzed by Anthracene-Ru(II) Terpyridine Dyad</div>
+                    <div class="pub-venue">Hokuriku District Meeting of The Chemical Society of Japan (Nov 2025)</div>
+                    <div><a href="https://kinki.csj.jp/csjevent/tiku_hokuprog25.pdf" target="_blank" class="pub-link">View Details →</a></div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2023 - Journal Paper (Q1)</div>
+                    <div class="pub-title">Enhancing Sorption Capacity of Methylene Blue Dye Using Solid Waste of Lemongrass Biosorbent by Modification Method</div>
+                    <div class="pub-venue">Arabian Journal of Chemistry</div>
+                    <div><a href="https://arabjchem.org/enhancing-sorption-capacity-of-methylene-blue-dye-using-solid-waste-of-lemongrass-biosorbent-by-modification-method/" target="_blank" class="pub-link">Read Paper →</a></div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="pub-year">2022 - Journal Paper (Q2)</div>
+                    <div class="pub-title">Lemongrass (Cymbopogon nardus) Leaves Biowaste as an Effective and Low-Cost Adsorbent for Methylene Blue Dyes Removal: Isotherms, Kinetics, and Thermodynamics Studies</div>
+                    <div class="pub-venue">Separation Science and Technology</div>
+                    <div><a href="https://www.tandfonline.com/doi/abs/10.1080/01496395.2022.2058549" target="_blank" class="pub-link">Read Paper →</a></div>
+                </div>
+            </section>
+
+            <!-- Awards -->
+            <section>
+                <h2>Awards & Honors</h2>
+                <div class="award-item">Best Graduate of the Postgraduate Program, Graduation Ceremony IV, Faculty of Mathematics and Natural Sciences, Universitas Andalas, 2022</div>
+                <div class="award-item">1st Place Winner, National Chemistry Essay Competition, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada, Yogyakarta, 2020</div>
+                <div class="award-item">Delegate of Universitas Andalas in the National Science Olympiad, 2020</div>
+                <div class="award-item">Silver Medalist, National Applied Science Project Olympiad, Indonesia Youth Scientist Association (IYSA), 2020</div>
+                <div class="award-item">Semifinalist, National Scientific Writing Competition, Faculty of Mathematics and Natural Sciences, Universitas Negeri Medan, 2019</div>
+            </section>
+
+            <!-- Organizations & Certifications -->
+            <section>
+                <h2>Certifications & Affiliations</h2>
+                
+                <div style="margin-bottom: 15px;">
+                    <h4 style="color: #667eea; margin-bottom: 8px;">Professional Affiliations</h4>
+                    <div style="color: #555; margin-bottom: 8px;">
+                        <strong>Member</strong> - Indonesian Youth Scientist Association (IYSA) (2019 - 2020)
+                    </div>
+                    <div style="color: #555;">
+                        <strong>Advisory Board</strong> - Paguyuban Awardee Beasiswa Unggulan Kemdikbud Area Sumatera Barat (2019 - 2020)
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="color: #667eea; margin-bottom: 8px;">Certifications</h4>
+                    <div style="color: #555; margin-bottom: 8px;">
+                        🏆 Certification of Chemical Lab. Implementers - National Professional Certification Agency (No: 7120231110000000902017, 2017)
+                    </div>
+                    <div style="color: #555;">
+                        🎓 TOEFL ITP - Score: 577, ETS Certification No: 13135180, 2024
                     </div>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2024 Jofi Satrio Purnomo. All rights reserved.</p>
+            <p>&copy; 2024-2026 Jofi Satrio Purnomo. All rights reserved.</p>
+            <p><a href="https://scholar.google.com/citations?user=0AWpDGYAAAAJ&hl=id&oi=ao" target="_blank" style="color: #667eea; text-decoration: none;">View Full Academic Profile</a></p>
         </footer>
     </div>
 </body>
